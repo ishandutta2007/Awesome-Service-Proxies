@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Service-Proxies/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Service-Proxies?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Service-Proxies/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Service-Proxies?style=for-the-badge&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Service-Proxies/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Service-Proxies?style=for-the-badge&color=blue" alt="Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Service-Proxies/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Service-Proxies?style=for-the-badge&color=brightgreen" alt="Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Service-Proxies/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"/></a>
@@ -73,9 +73,9 @@ The table below catalogs leading managed cloud load balancers and commercial app
 
 ## 🐙 Open-Source GitHub Projects
 
-Below is the definitive collection of open-source service proxies, reverse proxies, and API gateways, **sorted strictly descending by GitHub star count**. Each entry features an official social star badge directly linked to the repository's stargazers page.
+Below is the definitive collection of open-source service proxies, reverse proxies, and API gateways, **sorted strictly descending by GitHub Stars_Count**. Each entry features an official social Stars_Badge directly linked to the repository's stargazers page.
 
-### 1. [Caddy](https://github.com/caddyserver/caddy) [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)
+### 1. [Caddy](https://github.com/caddyserver/caddy) [![GitHub_Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)
 - 📝 **Description**: An extensible, cross-platform HTTP/1.1, HTTP/2, and HTTP/3 reverse proxy and web server written in Go. Famous for pioneering **automatic HTTPS certificate provisioning and renewal** by default via Let's Encrypt and ZeroSSL without external dependencies.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Microservice reverse proxying, rapid prototyping, static asset delivery, and environments requiring zero-maintenance automated TLS.
@@ -83,7 +83,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 2. [Traefik](https://github.com/traefik/traefik) [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
+### 2. [Traefik](https://github.com/traefik/traefik) [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
 - 📝 **Description**: The leading modern, cloud-native HTTP reverse proxy and ingress controller designed specifically for dynamic container topologies. Integrates directly with Docker, Kubernetes, HashiCorp Nomad, and Consul.
 - ⚖️ **License**: MIT
 - 💡 **Best For**: Container-first architectures, Kubernetes Ingress, dynamic microservices, and platforms where backends auto-scale dynamically.
@@ -91,7 +91,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 3. [Kong Gateway OSS](https://github.com/Kong/kong) [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)
+### 3. [Kong Gateway OSS](https://github.com/Kong/kong) [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)
 - 📝 **Description**: The world's most adopted open-source cloud-native API gateway and AI gateway. Built on top of NGINX and OpenResty with LuaJIT for sub-millisecond request processing latency.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Enterprise API governance, AI/LLM model gateway routing, token authentication, and high-frequency transaction management.
@@ -99,7 +99,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 4. [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) [![GitHub stars](https://img.shields.io/github/stars/NginxProxyManager/nginx-proxy-manager?style=social&color=white)](https://github.com/NginxProxyManager/nginx-proxy-manager/stargazers)
+### 4. [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) [![GitHub_Stars](https://img.shields.io/github/stars/NginxProxyManager/nginx-proxy-manager?style=social&color=white)](https://github.com/NginxProxyManager/nginx-proxy-manager/stargazers)
 - 📝 **Description**: A streamlined, Dockerized web-based administration dashboard built over NGINX, enabling effortless reverse proxy host management, SSL certificate provisioning, and access lists.
 - ⚖️ **License**: MIT
 - 💡 **Best For**: Homelab enthusiasts, small-to-medium business infrastructure, self-hosters, and teams needing an intuitive GUI over NGINX.
@@ -107,7 +107,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 5. [NGINX Open Source](https://github.com/nginx/nginx) [![GitHub stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)
+### 5. [NGINX Open Source](https://github.com/nginx/nginx) [![GitHub_Stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)
 - 📝 **Description**: The foundational web server, reverse proxy, and Layer 4/7 load balancer powering a substantial portion of the global web. Renowned for its event-driven, asynchronous worker architecture.
 - ⚖️ **License**: BSD-2-Clause
 - 💡 **Best For**: High-concurrency reverse proxying, static file acceleration, SSL/TLS offloading, and rock-solid edge routing.
@@ -115,7 +115,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 6. [Envoy Proxy](https://github.com/envoyproxy/envoy) [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
+### 6. [Envoy Proxy](https://github.com/envoyproxy/envoy) [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
 - 📝 **Description**: A CNCF-graduated, high-performance C++ distributed service proxy designed by Lyft for cloud-native microservice service meshes and universal edge data planes.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Kubernetes service mesh sidecars (Istio, Linkerd), large-scale microservice communication, gRPC transcoding, and AI/LLM traffic routing.
@@ -123,7 +123,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 7. [Cloudflare Pingora](https://github.com/cloudflare/pingora) [![GitHub stars](https://img.shields.io/github/stars/cloudflare/pingora?style=social&color=white)](https://github.com/cloudflare/pingora/stargazers)
+### 7. [Cloudflare Pingora](https://github.com/cloudflare/pingora) [![GitHub_Stars](https://img.shields.io/github/stars/cloudflare/pingora?style=social&color=white)](https://github.com/cloudflare/pingora/stargazers)
 - 📝 **Description**: Cloudflare's ultra-fast, memory-safe asynchronous Rust framework for building programmable proxies, load balancers, and network services that process trillions of internet requests daily.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Platform architects building custom bespoke proxies, high-throughput CDN edges, and systems demanding memory safety with minimal resource overhead.
@@ -131,7 +131,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 8. [Apache APISIX](https://github.com/apache/apisix) [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)
+### 8. [Apache APISIX](https://github.com/apache/apisix) [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)
 - 📝 **Description**: A top-level Apache Software Foundation cloud-native API gateway and traffic management platform built on OpenResty with an etcd-backed dynamic configuration plane.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Microservice gateways, serverless traffic routing, cross-cloud API coordination, and dynamic plugin hot-reloading.
@@ -139,7 +139,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 9. [Netflix Zuul](https://github.com/Netflix/zuul) [![GitHub stars](https://img.shields.io/github/stars/Netflix/zuul?style=social&color=white)](https://github.com/Netflix/zuul/stargazers)
+### 9. [Netflix Zuul](https://github.com/Netflix/zuul) [![GitHub_Stars](https://img.shields.io/github/stars/Netflix/zuul?style=social&color=white)](https://github.com/Netflix/zuul/stargazers)
 - 📝 **Description**: An edge service gateway developed by Netflix that provides dynamic routing, monitoring, resiliency, and security for high-volume consumer traffic.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Large-scale Java/Spring Cloud microservice environments, edge traffic routing, and custom request filtering.
@@ -147,7 +147,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 10. [Tyk API Gateway](https://github.com/TykTechnologies/tyk) [![GitHub stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)
+### 10. [Tyk API Gateway](https://github.com/TykTechnologies/tyk) [![GitHub_Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)
 - 📝 **Description**: An open-source enterprise API gateway written in Go, featuring comprehensive REST, GraphQL, gRPC, and Model Context Protocol (MCP) traffic orchestration.
 - ⚖️ **License**: MPL-2.0
 - 💡 **Best For**: Universal GraphQL federation, API product management, developer portals, and multi-tenant enterprise gateways.
@@ -155,7 +155,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 11. [HAProxy](https://github.com/haproxy/haproxy) [![GitHub stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)
+### 11. [HAProxy](https://github.com/haproxy/haproxy) [![GitHub_Stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)
 - 📝 **Description**: The industry standard for high-performance, battle-tested Layer 4 and Layer 7 reverse proxying and load balancing. Celebrated for world-record throughput and rock-solid stability under heavy loads.
 - ⚖️ **License**: GPL-2.0 / LGPL-2.1
 - 💡 **Best For**: High-throughput web traffic, database connection pooling, TCP/UDP L4 balancing, and zero-error Kubernetes ingress.
@@ -163,7 +163,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 12. [Zoraxy](https://github.com/tobychui/zoraxy) [![GitHub stars](https://img.shields.io/github/stars/tobychui/zoraxy?style=social&color=white)](https://github.com/tobychui/zoraxy/stargazers)
+### 12. [Zoraxy](https://github.com/tobychui/zoraxy) [![GitHub_Stars](https://img.shields.io/github/stars/tobychui/zoraxy?style=social&color=white)](https://github.com/tobychui/zoraxy/stargazers)
 - 📝 **Description**: A general-purpose, lightweight HTTP/HTTPS reverse proxy and forwarding tool written in Go with an intuitive and responsive web-based user interface.
 - ⚖️ **License**: AGPL-3.0
 - 💡 **Best For**: Homelabs, self-hosted web clusters, single-node VPS setups, and small development teams wanting zero configuration overhead.
@@ -171,7 +171,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 13. [Varnish Cache](https://github.com/varnishcache/varnish-cache) [![GitHub stars](https://img.shields.io/github/stars/varnishcache/varnish-cache?style=social&color=white)](https://github.com/varnishcache/varnish-cache/stargazers)
+### 13. [Varnish Cache](https://github.com/varnishcache/varnish-cache) [![GitHub_Stars](https://img.shields.io/github/stars/varnishcache/varnish-cache?style=social&color=white)](https://github.com/varnishcache/varnish-cache/stargazers)
 - 📝 **Description**: A specialized HTTP accelerator and caching reverse proxy designed to handle content-heavy web applications by serving responses directly out of memory.
 - ⚖️ **License**: BSD-2-Clause
 - 💡 **Best For**: Content Delivery Networks (CDNs), news and media publishers, e-commerce storefronts, and API response caching.
@@ -179,7 +179,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 14. [Sōzu](https://github.com/sozu-proxy/sozu) [![GitHub stars](https://img.shields.io/github/stars/sozu-proxy/sozu?style=social&color=white)](https://github.com/sozu-proxy/sozu/stargazers)
+### 14. [Sōzu](https://github.com/sozu-proxy/sozu) [![GitHub_Stars](https://img.shields.io/github/stars/sozu-proxy/sozu?style=social&color=white)](https://github.com/sozu-proxy/sozu/stargazers)
 - 📝 **Description**: A lightweight, fast, and memory-safe HTTP/HTTPS reverse proxy written entirely in Rust, designed for zero-downtime hot reloads and continuous operational uptime.
 - ⚖️ **License**: AGPL-3.0
 - 💡 **Best For**: Zero-downtime rolling deployments, multi-tenant PaaS architectures, and security-critical web endpoints.
@@ -187,7 +187,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 15. [SWAG (Secure Web Application Gateway)](https://github.com/linuxserver/docker-swag) [![GitHub stars](https://img.shields.io/github/stars/linuxserver/docker-swag?style=social&color=white)](https://github.com/linuxserver/docker-swag/stargazers)
+### 15. [SWAG (Secure Web Application Gateway)](https://github.com/linuxserver/docker-swag) [![GitHub_Stars](https://img.shields.io/github/stars/linuxserver/docker-swag?style=social&color=white)](https://github.com/linuxserver/docker-swag/stargazers)
 - 📝 **Description**: Maintained by LinuxServer.io, SWAG bundles an NGINX web server and reverse proxy with built-in Certbot (Let's Encrypt client), fail2ban intrusion prevention, and authelia/authentik integrations.
 - ⚖️ **License**: GPL-3.0
 - 💡 **Best For**: Secure home servers, dockerized microservices, remote service publishing, and self-hosted application suites.
@@ -195,7 +195,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 16. [Skipper](https://github.com/zalando/skipper) [![GitHub stars](https://img.shields.io/github/stars/zalando/skipper?style=social&color=white)](https://github.com/zalando/skipper/stargazers)
+### 16. [Skipper](https://github.com/zalando/skipper) [![GitHub_Stars](https://img.shields.io/github/stars/zalando/skipper?style=social&color=white)](https://github.com/zalando/skipper/stargazers)
 - 📝 **Description**: An extensible HTTP router and reverse proxy library written in Go by Zalando, built specifically for service composition and large-scale Kubernetes ingress.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Kubernetes Ingress at scale, e-commerce traffic routing, shadow traffic testing, and canary deployments.
@@ -203,7 +203,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 17. [Envoy Gateway](https://github.com/envoyproxy/gateway) [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers)
+### 17. [Envoy Gateway](https://github.com/envoyproxy/gateway) [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers)
 - 📝 **Description**: The official project managing Envoy Proxy as a standardized Kubernetes Gateway API implementation, simplifying Envoy configuration for ingress and edge proxying.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Standardized Kubernetes Gateway API deployments, replacing legacy ingress controllers, and cross-team multi-tenant traffic routing.
@@ -211,7 +211,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 18. [KrakenD Community Edition](https://github.com/krakend/krakend-ce) [![GitHub stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers)
+### 18. [KrakenD Community Edition](https://github.com/krakend/krakend-ce) [![GitHub_Stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers)
 - 📝 **Description**: An ultra-high-performance, stateless, declarative API Gateway written in Go. Operates without an external database, aggregating and filtering data from multiple backend services into clean API responses.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: Backend-For-Frontend (BFF) patterns, API aggregation, mobile client data miniaturization, and microservice decoupling.
@@ -219,7 +219,7 @@ Below is the definitive collection of open-source service proxies, reverse proxi
 
 ---
 
-### 19. [HAProxy Kubernetes Ingress Controller](https://github.com/haproxytech/kubernetes-ingress) [![GitHub stars](https://img.shields.io/github/stars/haproxytech/kubernetes-ingress?style=social&color=white)](https://github.com/haproxytech/kubernetes-ingress/stargazers)
+### 19. [HAProxy Kubernetes Ingress Controller](https://github.com/haproxytech/kubernetes-ingress) [![GitHub_Stars](https://img.shields.io/github/stars/haproxytech/kubernetes-ingress?style=social&color=white)](https://github.com/haproxytech/kubernetes-ingress/stargazers)
 - 📝 **Description**: The official enterprise-grade HAProxy ingress controller for Kubernetes, translating Ingress and Gateway API resources into high-speed HAProxy configurations.
 - ⚖️ **License**: Apache-2.0
 - 💡 **Best For**: High-throughput Kubernetes clusters requiring maximum requests-per-second, predictable latency, and granular ACL control.
@@ -251,7 +251,7 @@ We actively welcome contributions from platform engineers, maintainers, and open
 1. 🍴 **Fork the Repository** on GitHub.
 2. 🌿 **Create a Feature Branch** (`git checkout -b feature/add-new-proxy`).
 3. 📝 **Add or Update Entries**: Follow the exact markdown table or list formatting, ensure factual descriptions, specify licenses, and cite official repositories.
-4. 🌟 **Ensure Star Count Accuracy**: Open-source additions must be placed in their correct rank according to GitHub stargazers count with an active social badge.
+4. 🌟 **Ensure Stars_Count Accuracy**: Open-source additions must be placed in their correct rank according to GitHub stargazers count with an active social badge.
 5. 🚀 **Submit a Pull Request** with a concise explanation of the addition or revision.
 
 ---
