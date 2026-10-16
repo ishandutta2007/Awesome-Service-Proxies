@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070b12" />
+    </linearGradient>
+    <radialGradient id="proxyGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="lineGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="heavyGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes dashMove {
+        from { stroke-dashoffset: 60; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.08); opacity: 1; filter: drop-shadow(0 0 12px #38bdf8); }
+      }
+      @keyframes floatPill {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes particleFly1 {
+        0% { transform: translate(140px, 90px); opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { transform: translate(500px, 140px); opacity: 0; }
+      }
+      @keyframes particleFly2 {
+        0% { transform: translate(140px, 270px); opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { transform: translate(500px, 140px); opacity: 0; }
+      }
+      @keyframes particleOut1 {
+        0% { transform: translate(500px, 140px); opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { transform: translate(860px, 90px); opacity: 0; }
+      }
+      @keyframes particleOut2 {
+        0% { transform: translate(500px, 140px); opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { transform: translate(860px, 270px); opacity: 0; }
+      }
+      .dash-path {
+        stroke-dasharray: 6 6;
+        animation: dashMove 2.5s linear infinite;
+      }
+      .reverse-dash {
+        stroke-dasharray: 6 6;
+        animation: dashMove 2.5s linear infinite reverse;
+      }
+      .center-proxy {
+        transform-origin: 500px 140px;
+        animation: pulseNode 4s ease-in-out infinite;
+      }
+      .pill-float-1 {
+        animation: floatPill 3.5s ease-in-out infinite;
+      }
+      .pill-float-2 {
+        animation: floatPill 3.8s ease-in-out infinite 0.7s;
+      }
+      .pill-float-3 {
+        animation: floatPill 4.2s ease-in-out infinite 1.4s;
+      }
+      .p1 { animation: particleFly1 2.8s linear infinite; }
+      .p2 { animation: particleFly2 3.1s linear infinite 0.4s; }
+      .p3 { animation: particleOut1 2.8s linear infinite 1.2s; }
+      .p4 { animation: particleOut2 3.2s linear infinite 1.6s; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1000" height="360" fill="url(#bgGrad)" />
+
+  <!-- Subtle Ambient Glows -->
+  <circle cx="500" cy="140" r="280" fill="url(#proxyGlow)" />
+  <circle cx="150" cy="180" r="140" fill="#38bdf8" fill-opacity="0.04" />
+  <circle cx="850" cy="180" r="140" fill="#a855f7" fill-opacity="0.04" />
+
+  <!-- Background Grid Lines -->
+  <g stroke="#334155" stroke-opacity="0.18" stroke-width="1">
+    <line x1="0" y1="60" x2="1000" y2="60" />
+    <line x1="0" y1="120" x2="1000" y2="120" />
+    <line x1="0" y1="180" x2="1000" y2="180" />
+    <line x1="0" y1="240" x2="1000" y2="240" />
+    <line x1="0" y1="300" x2="1000" y2="300" />
+    <line x1="200" y1="0" x2="200" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="800" y1="0" x2="800" y2="360" />
+  </g>
+
+  <!-- Dynamic Traffic Routing Network (Background Flow Layer) -->
+  <g id="network-layer">
+    <!-- Client Ingress Paths to Central Proxy -->
+    <path d="M 140 90 C 280 90, 360 140, 500 140" fill="none" stroke="url(#lineGrad1)" stroke-width="2.5" class="dash-path" />
+    <path d="M 140 180 C 280 180, 380 140, 500 140" fill="none" stroke="url(#lineGrad1)" stroke-width="2.5" class="dash-path" />
+    <path d="M 140 270 C 280 270, 360 140, 500 140" fill="none" stroke="url(#lineGrad1)" stroke-width="2.5" class="dash-path" />
+
+    <!-- Central Proxy Egress Paths to Backend Clusters -->
+    <path d="M 500 140 C 640 140, 720 90, 860 90" fill="none" stroke="url(#lineGrad2)" stroke-width="2.5" class="dash-path" />
+    <path d="M 500 140 C 640 140, 720 180, 860 180" fill="none" stroke="url(#lineGrad2)" stroke-width="2.5" class="dash-path" />
+    <path d="M 500 140 C 640 140, 720 270, 860 270" fill="none" stroke="url(#lineGrad2)" stroke-width="2.5" class="dash-path" />
+
+    <!-- Ingress Source Nodes (Clients / Edge) -->
+    <g transform="translate(140, 90)">
+      <circle r="7" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      <circle r="3" fill="#38bdf8" />
+      <text x="-18" y="4" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="end">Client HTTP/3</text>
+    </g>
+    <g transform="translate(140, 180)">
+      <circle r="7" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      <circle r="3" fill="#38bdf8" />
+      <text x="-18" y="4" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="end">gRPC Ingress</text>
+    </g>
+    <g transform="translate(140, 270)">
+      <circle r="7" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      <circle r="3" fill="#38bdf8" />
+      <text x="-18" y="4" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="end">TCP/TLS Edge</text>
+    </g>
+
+    <!-- Backend Destination Nodes (Microservices / Pods / Upstreams) -->
+    <g transform="translate(860, 90)">
+      <circle r="7" fill="#0f172a" stroke="#c084fc" stroke-width="2" />
+      <circle r="3" fill="#c084fc" />
+      <text x="18" y="4" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="start">K8s Pods</text>
+    </g>
+    <g transform="translate(860, 180)">
+      <circle r="7" fill="#0f172a" stroke="#c084fc" stroke-width="2" />
+      <circle r="3" fill="#c084fc" />
+      <text x="18" y="4" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="start">Microservices</text>
+    </g>
+    <g transform="translate(860, 270)">
+      <circle r="7" fill="#0f172a" stroke="#c084fc" stroke-width="2" />
+      <circle r="3" fill="#c084fc" />
+      <text x="18" y="4" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="start">AI Inference Edge</text>
+    </g>
+
+    <!-- Animated Dynamic Flow Packets -->
+    <circle class="p1" r="3.5" fill="#38bdf8" filter="url(#neonGlow)" />
+    <circle class="p2" r="3.5" fill="#38bdf8" filter="url(#neonGlow)" />
+    <circle class="p3" r="3.5" fill="#c084fc" filter="url(#neonGlow)" />
+    <circle class="p4" r="3.5" fill="#c084fc" filter="url(#neonGlow)" />
+
+    <!-- Central Proxy Hub Halo -->
+    <g class="center-proxy">
+      <circle cx="500" cy="140" r="38" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="4 2" class="reverse-dash" />
+      <circle cx="500" cy="140" r="28" fill="#1e1b4b" stroke="#818cf8" stroke-width="2" filter="url(#neonGlow)" />
+      <!-- Traffic Balancer Icon -->
+      <path d="M 490 135 L 500 125 L 510 135 M 500 127 L 500 148 M 492 143 L 508 143" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <!-- FOREGROUND HERO CONTENT (High contrast, guaranteed readable) -->
+  <g id="foreground-hero">
+    <!-- Semi-transparent backdrop plate for crystal-clear readability -->
+    <rect x="180" y="24" width="640" height="152" rx="16" fill="#0b1120" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.5" />
+
+    <!-- Badge Pills -->
+    <g class="pill-float-1" transform="translate(325, 42)">
+      <rect x="0" y="0" width="108" height="22" rx="11" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+      <text x="54" y="15" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚡ LAYER 4 / 7</text>
+    </g>
+    <g class="pill-float-2" transform="translate(445, 42)">
+      <rect x="0" y="0" width="112" height="22" rx="11" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+      <text x="56" y="15" fill="#818cf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚖️ LOAD BALANCING</text>
+    </g>
+    <g class="pill-float-3" transform="translate(569, 42)">
+      <rect x="0" y="0" width="106" height="22" rx="11" fill="#1e293b" stroke="#c084fc" stroke-width="1" />
+      <text x="53" y="15" fill="#c084fc" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">🛡️ API GATEWAY</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="500" y="108" fill="url(#textGrad)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="-0.5px" filter="url(#heavyGlow)">Awesome Service Proxies</text>
+
+    <!-- Subtitle -->
+    <text x="500" y="142" fill="#cbd5e1" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="400" text-anchor="middle">Curated Ecosystem of High-Performance Reverse Proxies, Load Balancers &amp; Ingress Engines</text>
+  </g>
+
+  <!-- Bottom Ecosystem Tech Tags Ribbon -->
+  <g id="bottom-ribbon" transform="translate(0, 305)">
+    <rect x="120" y="0" width="760" height="38" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#334155" stroke-width="1" />
+    <text x="500" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, 'Segoe UI', monospace" font-size="12.5" font-weight="500" text-anchor="middle">
+      <tspan fill="#38bdf8" font-weight="700">HAProxy</tspan> • 
+      <tspan fill="#818cf8" font-weight="700">Envoy</tspan> • 
+      <tspan fill="#34d399" font-weight="700">NGINX</tspan> • 
+      <tspan fill="#f43f5e" font-weight="700">Traefik</tspan> • 
+      <tspan fill="#38bdf8" font-weight="700">Caddy</tspan> • 
+      <tspan fill="#a855f7" font-weight="700">Kong Gateway</tspan> • 
+      <tspan fill="#fbbf24" font-weight="700">Pingora</tspan> • 
+      <tspan fill="#f97316" font-weight="700">APISIX</tspan>
+    </text>
+  </g>
+</svg>
