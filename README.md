@@ -1,6 +1,6 @@
 # Awesome-Service-Proxies
 
-# Top Service Proxies Ecosystem
+## Top Service Proxies Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Layer 4/7 Load Balancing, Dynamic Service Discovery & Traffic Management*  
